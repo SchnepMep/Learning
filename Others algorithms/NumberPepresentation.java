@@ -2,14 +2,15 @@ public class NumberPepresentation {
 
     public static void main(String[] args) {
         System.out.println(add(210, 11, 2));
-        System.out.println(add(773,0 ,8));
+        System.out.println(add(773, 0, 8));
     }
 
     /**
      * Adds two numbers if they are in the same number system.
-     * @param value First value to add
+     * 
+     * @param value  First value to add
      * @param value1 Second value to add
-     * @param basis The basis from the values
+     * @param basis  The basis from the values
      * @return The new value
      */
 
@@ -21,6 +22,7 @@ public class NumberPepresentation {
 
     /**
      * Transforms a value from a number system into the dezimal system
+     * 
      * @param value The value to transform
      * @param basis The basis from the value
      * @return The transformed value
@@ -34,6 +36,7 @@ public class NumberPepresentation {
 
     /**
      * Transform a value into a another number representation.
+     * 
      * @param value The value to transform
      * @param basis The number system
      * @return The transformed value
@@ -47,6 +50,7 @@ public class NumberPepresentation {
 
     /**
      * Check if the value is in the same number representation.
+     * 
      * @param value The value to check
      * @param basis The number representation
      * @return True if the value is in the representation otherwise false
