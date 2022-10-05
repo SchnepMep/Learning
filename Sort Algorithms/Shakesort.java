@@ -1,12 +1,13 @@
-public class ShakerSort {
+public class Shakesort {
 
-    private int[] array = { 16, 23, 14, 8, 3, 19};
+    private int[] array = { 16, 23, 14, 8, 3, 19 };
     private int reminder;
 
-    public ShakerSort() {}
+    public Shakesort() {
+    }
 
     public static void main(String[] args) {
-        ShakerSort shakerSort = new ShakerSort();
+        Shakesort shakerSort = new Shakesort();
         int[] resultArray = shakerSort.sort();
 
         for (int i = 0; i < resultArray.length; i++) {
@@ -16,6 +17,7 @@ public class ShakerSort {
 
     /**
      * Executes the algorithm
+     * 
      * @return
      */
 
@@ -35,6 +37,7 @@ public class ShakerSort {
 
     /**
      * Goes from the front through the array
+     * 
      * @param paramInt
      * @param paramInt2
      */
@@ -51,6 +54,7 @@ public class ShakerSort {
 
     /**
      * Goes from the behind through the array
+     * 
      * @param paramInt
      * @param paramInt2
      */

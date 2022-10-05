@@ -1,11 +1,11 @@
-public class BubbleSort {
-
+public class Bubblesort {
+    
     public static void main(String[] args) {
         int[] input = { 4, 10, 9, 61, 23, 12, 34, 0, 1 };
-        bubbleSort(input);
-
+        BubbleSort(input);
     }
-    public static void bubbleSort(int array[]) {
+
+    public static void BubbleSort(int array[]) {
         int n = array.length;
         int k;
         for (int m = n; m >= 0; m--) {
